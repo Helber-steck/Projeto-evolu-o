@@ -1,5 +1,7 @@
 body{
   background-color: #f7f7f7;
+  max-width: 900px;
+  margin: 0 auto;
 }
 #title, .subtitle, .post_title{
   color: #505050;
@@ -17,6 +19,9 @@ body{
   border: 3px solid  #505050;
   margin: 10px;
   border-radius: 6px;
+  max-width: 700px;
+  
+  
 }
 
 .post_content{
@@ -25,5 +30,15 @@ body{
 }
 
 .img-responsive{
+ 
   margin-bottom: 15px;
+  width: 100%;
+  border-radius: 6px;
+  
+  
+}
+
+.lista{
+  margin-top: 10px;
+  padding: 10px;
 }
